@@ -34,8 +34,8 @@
         "phpstan/phpstan-mockery": "^1.1"
     },
     "conflict": {
-        "quantaquirk/console": ">=1.0.0 <10.25.0",
-        "quantaquirk/framework": ">=1.0.0 <10.25.0"
+        "quantaquirk/console": ">=10.0.0 <10.25.0",
+        "quantaquirk/framework": ">=10.0.0 <10.25.0"
     },
     "suggest": {
         "ext-pcntl": "Required for the spinner to be animated."

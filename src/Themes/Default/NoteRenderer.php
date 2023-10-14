@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\Note;
+use QuantaForge\Prompts\Note;
 
 class NoteRenderer extends Renderer
 {

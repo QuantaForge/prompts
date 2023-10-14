@@ -1,6 +1,6 @@
 <?php
 
-use function QuantaQuirk\Prompts\password;
+use function QuantaForge\Prompts\password;
 
 require __DIR__.'/../vendor/autoload.php';
 

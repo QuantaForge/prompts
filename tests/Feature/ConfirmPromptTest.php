@@ -1,11 +1,11 @@
 <?php
 
-use QuantaQuirk\Prompts\ConfirmPrompt;
-use QuantaQuirk\Prompts\Exceptions\NonInteractiveValidationException;
-use QuantaQuirk\Prompts\Key;
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\ConfirmPrompt;
+use QuantaForge\Prompts\Exceptions\NonInteractiveValidationException;
+use QuantaForge\Prompts\Key;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\confirm;
+use function QuantaForge\Prompts\confirm;
 
 it('confirms', function () {
     Prompt::fake([Key::ENTER]);

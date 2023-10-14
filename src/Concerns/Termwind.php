@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Concerns;
+namespace QuantaForge\Prompts\Concerns;
 
-use QuantaQuirk\Prompts\Output\BufferedConsoleOutput;
+use QuantaForge\Prompts\Output\BufferedConsoleOutput;
 
 use function Termwind\render;
 use function Termwind\renderUsing;

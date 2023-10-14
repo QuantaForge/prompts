@@ -1,6 +1,6 @@
 <?php
 
-use function QuantaQuirk\Prompts\spin;
+use function QuantaForge\Prompts\spin;
 
 require __DIR__.'/../vendor/autoload.php';
 

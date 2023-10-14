@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default\Concerns;
+namespace QuantaForge\Prompts\Themes\Default\Concerns;
 
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Prompt;
 
 trait DrawsBoxes
 {

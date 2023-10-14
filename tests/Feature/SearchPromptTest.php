@@ -1,11 +1,11 @@
 <?php
 
-use QuantaQuirk\Prompts\Exceptions\NonInteractiveValidationException;
-use QuantaQuirk\Prompts\Key;
-use QuantaQuirk\Prompts\Prompt;
-use QuantaQuirk\Prompts\SearchPrompt;
+use QuantaForge\Prompts\Exceptions\NonInteractiveValidationException;
+use QuantaForge\Prompts\Key;
+use QuantaForge\Prompts\Prompt;
+use QuantaForge\Prompts\SearchPrompt;
 
-use function QuantaQuirk\Prompts\search;
+use function QuantaForge\Prompts\search;
 
 it('accepts a callback', function () {
     Prompt::fake(['u', 'e', Key::DOWN, Key::ENTER]);

@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Prompts;
+namespace QuantaForge\Prompts;
 
 class Key
 {

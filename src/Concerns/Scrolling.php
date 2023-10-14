@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Concerns;
+namespace QuantaForge\Prompts\Concerns;
 
-use QuantaQuirk\Prompts\Themes\Contracts\Scrolling as ScrollingRenderer;
+use QuantaForge\Prompts\Themes\Contracts\Scrolling as ScrollingRenderer;
 
 trait Scrolling
 {

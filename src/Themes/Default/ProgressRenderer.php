@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\Progress;
+use QuantaForge\Prompts\Progress;
 
 class ProgressRenderer extends Renderer
 {

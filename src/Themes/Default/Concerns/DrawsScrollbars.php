@@ -1,16 +1,16 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default\Concerns;
+namespace QuantaForge\Prompts\Themes\Default\Concerns;
 
-use QuantaQuirk\Support\Collection;
+use QuantaForge\Support\Collection;
 
 trait DrawsScrollbars
 {
     /**
      * Render a scrollbar beside the visible items.
      *
-     * @param  \QuantaQuirk\Support\Collection<int, string>  $visible
-     * @return \QuantaQuirk\Support\Collection<int, string>
+     * @param  \QuantaForge\Support\Collection<int, string>  $visible
+     * @return \QuantaForge\Support\Collection<int, string>
      */
     protected function scrollbar(Collection $visible, int $firstVisible, int $height, int $total, int $width, string $color = 'cyan'): Collection
     {

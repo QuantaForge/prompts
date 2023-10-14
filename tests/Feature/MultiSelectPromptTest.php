@@ -1,11 +1,11 @@
 <?php
 
-use QuantaQuirk\Prompts\Exceptions\NonInteractiveValidationException;
-use QuantaQuirk\Prompts\Key;
-use QuantaQuirk\Prompts\MultiSelectPrompt;
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Exceptions\NonInteractiveValidationException;
+use QuantaForge\Prompts\Key;
+use QuantaForge\Prompts\MultiSelectPrompt;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\multiselect;
+use function QuantaForge\Prompts\multiselect;
 
 it('accepts an array of labels', function () {
     Prompt::fake([Key::DOWN, Key::SPACE, Key::DOWN, Key::SPACE, Key::ENTER]);

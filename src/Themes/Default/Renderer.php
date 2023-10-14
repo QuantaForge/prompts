@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\Concerns\Colors;
-use QuantaQuirk\Prompts\Concerns\Truncation;
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Concerns\Colors;
+use QuantaForge\Prompts\Concerns\Truncation;
+use QuantaForge\Prompts\Prompt;
 use RuntimeException;
 
 abstract class Renderer

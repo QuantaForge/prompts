@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts;
+namespace QuantaForge\Prompts;
 
-use QuantaQuirk\Support\Collection;
+use QuantaForge\Support\Collection;
 
 class Table extends Prompt
 {

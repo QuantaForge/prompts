@@ -1,11 +1,11 @@
 <?php
 
-use QuantaQuirk\Prompts\Exceptions\NonInteractiveValidationException;
-use QuantaQuirk\Prompts\Key;
-use QuantaQuirk\Prompts\PasswordPrompt;
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Exceptions\NonInteractiveValidationException;
+use QuantaForge\Prompts\Key;
+use QuantaForge\Prompts\PasswordPrompt;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\password;
+use function QuantaForge\Prompts\password;
 
 it('returns the input', function () {
     Prompt::fake(['p', 'a', 's', 's', Key::ENTER]);

@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\Spinner;
+use QuantaForge\Prompts\Spinner;
 
 class SpinnerRenderer extends Renderer
 {

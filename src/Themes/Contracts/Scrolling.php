@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Contracts;
+namespace QuantaForge\Prompts\Themes\Contracts;
 
 interface Scrolling
 {

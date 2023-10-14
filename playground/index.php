@@ -1,22 +1,22 @@
 <?php
 
-use function QuantaQuirk\Prompts\alert;
-use function QuantaQuirk\Prompts\confirm;
-use function QuantaQuirk\Prompts\error;
-use function QuantaQuirk\Prompts\intro;
-use function QuantaQuirk\Prompts\multiselect;
-use function QuantaQuirk\Prompts\note;
-use function QuantaQuirk\Prompts\outro;
-use function QuantaQuirk\Prompts\password;
-use function QuantaQuirk\Prompts\select;
-use function QuantaQuirk\Prompts\spin;
-use function QuantaQuirk\Prompts\suggest;
-use function QuantaQuirk\Prompts\text;
-use function QuantaQuirk\Prompts\warning;
+use function QuantaForge\Prompts\alert;
+use function QuantaForge\Prompts\confirm;
+use function QuantaForge\Prompts\error;
+use function QuantaForge\Prompts\intro;
+use function QuantaForge\Prompts\multiselect;
+use function QuantaForge\Prompts\note;
+use function QuantaForge\Prompts\outro;
+use function QuantaForge\Prompts\password;
+use function QuantaForge\Prompts\select;
+use function QuantaForge\Prompts\spin;
+use function QuantaForge\Prompts\suggest;
+use function QuantaForge\Prompts\text;
+use function QuantaForge\Prompts\warning;
 
 require __DIR__.'/../vendor/autoload.php';
 
-intro('Welcome to QuantaQuirk');
+intro('Welcome to QuantaForge');
 
 $name = suggest(
     label: 'What is your name?',
@@ -40,7 +40,7 @@ $name = suggest(
 
 $path = text(
     label: 'Where should we create your project?',
-    placeholder: 'E.g. ./quantaquirk',
+    placeholder: 'E.g. ./quantaforge',
     validate: fn ($value) => match (true) {
         ! $value => 'Please enter a path',
         $value[0] !== '.' => 'Please enter a relative path',

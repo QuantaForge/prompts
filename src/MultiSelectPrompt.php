@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Prompts;
+namespace QuantaForge\Prompts;
 
 use Closure;
-use QuantaQuirk\Support\Collection;
+use QuantaForge\Support\Collection;
 
 class MultiSelectPrompt extends Prompt
 {

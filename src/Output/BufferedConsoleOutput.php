@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Output;
+namespace QuantaForge\Prompts\Output;
 
 class BufferedConsoleOutput extends ConsoleOutput
 {

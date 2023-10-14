@@ -1,8 +1,8 @@
 <?php
 
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\note;
+use function QuantaForge\Prompts\note;
 
 it('renders a note', function () {
     Prompt::fake();

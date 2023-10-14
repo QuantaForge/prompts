@@ -1,12 +1,12 @@
 <?php
 
-use function QuantaQuirk\Prompts\text;
+use function QuantaForge\Prompts\text;
 
 require __DIR__.'/../vendor/autoload.php';
 
 $email = text(
     label: 'What is your email address',
-    placeholder: 'E.g. taylor@quantaquirk.com',
+    placeholder: 'E.g. taylor@quantaforge.com',
     validate: fn ($value) => match (true) {
         strlen($value) === 0 => 'Please enter an email address.',
         ! filter_var($value, FILTER_VALIDATE_EMAIL) => 'Please enter a valid email address.',

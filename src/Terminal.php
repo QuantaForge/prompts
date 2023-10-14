@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Prompts;
+namespace QuantaForge\Prompts;
 
 use RuntimeException;
 use Symfony\Component\Console\Terminal as SymfonyTerminal;

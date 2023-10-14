@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Concerns;
+namespace QuantaForge\Prompts\Concerns;
 
-use QuantaQuirk\Prompts\Exceptions\NonInteractiveValidationException;
+use QuantaForge\Prompts\Exceptions\NonInteractiveValidationException;
 
 trait Interactivity
 {

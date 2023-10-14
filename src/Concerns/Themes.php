@@ -1,32 +1,32 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Concerns;
+namespace QuantaForge\Prompts\Concerns;
 
 use InvalidArgumentException;
-use QuantaQuirk\Prompts\ConfirmPrompt;
-use QuantaQuirk\Prompts\MultiSearchPrompt;
-use QuantaQuirk\Prompts\MultiSelectPrompt;
-use QuantaQuirk\Prompts\Note;
-use QuantaQuirk\Prompts\PasswordPrompt;
-use QuantaQuirk\Prompts\Progress;
-use QuantaQuirk\Prompts\SearchPrompt;
-use QuantaQuirk\Prompts\SelectPrompt;
-use QuantaQuirk\Prompts\Spinner;
-use QuantaQuirk\Prompts\SuggestPrompt;
-use QuantaQuirk\Prompts\Table;
-use QuantaQuirk\Prompts\TextPrompt;
-use QuantaQuirk\Prompts\Themes\Default\ConfirmPromptRenderer;
-use QuantaQuirk\Prompts\Themes\Default\MultiSearchPromptRenderer;
-use QuantaQuirk\Prompts\Themes\Default\MultiSelectPromptRenderer;
-use QuantaQuirk\Prompts\Themes\Default\NoteRenderer;
-use QuantaQuirk\Prompts\Themes\Default\PasswordPromptRenderer;
-use QuantaQuirk\Prompts\Themes\Default\ProgressRenderer;
-use QuantaQuirk\Prompts\Themes\Default\SearchPromptRenderer;
-use QuantaQuirk\Prompts\Themes\Default\SelectPromptRenderer;
-use QuantaQuirk\Prompts\Themes\Default\SpinnerRenderer;
-use QuantaQuirk\Prompts\Themes\Default\SuggestPromptRenderer;
-use QuantaQuirk\Prompts\Themes\Default\TableRenderer;
-use QuantaQuirk\Prompts\Themes\Default\TextPromptRenderer;
+use QuantaForge\Prompts\ConfirmPrompt;
+use QuantaForge\Prompts\MultiSearchPrompt;
+use QuantaForge\Prompts\MultiSelectPrompt;
+use QuantaForge\Prompts\Note;
+use QuantaForge\Prompts\PasswordPrompt;
+use QuantaForge\Prompts\Progress;
+use QuantaForge\Prompts\SearchPrompt;
+use QuantaForge\Prompts\SelectPrompt;
+use QuantaForge\Prompts\Spinner;
+use QuantaForge\Prompts\SuggestPrompt;
+use QuantaForge\Prompts\Table;
+use QuantaForge\Prompts\TextPrompt;
+use QuantaForge\Prompts\Themes\Default\ConfirmPromptRenderer;
+use QuantaForge\Prompts\Themes\Default\MultiSearchPromptRenderer;
+use QuantaForge\Prompts\Themes\Default\MultiSelectPromptRenderer;
+use QuantaForge\Prompts\Themes\Default\NoteRenderer;
+use QuantaForge\Prompts\Themes\Default\PasswordPromptRenderer;
+use QuantaForge\Prompts\Themes\Default\ProgressRenderer;
+use QuantaForge\Prompts\Themes\Default\SearchPromptRenderer;
+use QuantaForge\Prompts\Themes\Default\SelectPromptRenderer;
+use QuantaForge\Prompts\Themes\Default\SpinnerRenderer;
+use QuantaForge\Prompts\Themes\Default\SuggestPromptRenderer;
+use QuantaForge\Prompts\Themes\Default\TableRenderer;
+use QuantaForge\Prompts\Themes\Default\TextPromptRenderer;
 
 trait Themes
 {
@@ -38,7 +38,7 @@ trait Themes
     /**
      * The available themes.
      *
-     * @var array<string, array<class-string<\QuantaQuirk\Prompts\Prompt>, class-string<object&callable>>>
+     * @var array<string, array<class-string<\QuantaForge\Prompts\Prompt>, class-string<object&callable>>>
      */
     protected static array $themes = [
         'default' => [
@@ -78,7 +78,7 @@ trait Themes
     /**
      * Add a new theme.
      *
-     * @param  array<class-string<\QuantaQuirk\Prompts\Prompt>, class-string<object&callable>>  $renderers
+     * @param  array<class-string<\QuantaForge\Prompts\Prompt>, class-string<object&callable>>  $renderers
      */
     public static function addTheme(string $name, array $renderers): void
     {

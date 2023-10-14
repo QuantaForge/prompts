@@ -1,10 +1,10 @@
 <?php
 
-use QuantaQuirk\Prompts\Key;
-use QuantaQuirk\Prompts\MultiSearchPrompt;
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Key;
+use QuantaForge\Prompts\MultiSearchPrompt;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\multisearch;
+use function QuantaForge\Prompts\multisearch;
 
 it('supports default results', function ($options, $expected) {
     Prompt::fake([

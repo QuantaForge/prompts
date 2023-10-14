@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Prompts;
+namespace QuantaForge\Prompts;
 
 use Closure;
-use QuantaQuirk\Prompts\Output\ConsoleOutput;
+use QuantaForge\Prompts\Output\ConsoleOutput;
 use RuntimeException;
 use Symfony\Component\Console\Output\OutputInterface;
 use Throwable;

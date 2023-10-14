@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\ConfirmPrompt;
+use QuantaForge\Prompts\ConfirmPrompt;
 
 class ConfirmPromptRenderer extends Renderer
 {

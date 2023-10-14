@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\MultiSelectPrompt;
-use QuantaQuirk\Prompts\Themes\Contracts\Scrolling;
+use QuantaForge\Prompts\MultiSelectPrompt;
+use QuantaForge\Prompts\Themes\Contracts\Scrolling;
 
 class MultiSelectPromptRenderer extends Renderer implements Scrolling
 {

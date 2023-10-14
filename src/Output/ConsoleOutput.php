@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Output;
+namespace QuantaForge\Prompts\Output;
 
 use Symfony\Component\Console\Output\ConsoleOutput as SymfonyConsoleOutput;
 

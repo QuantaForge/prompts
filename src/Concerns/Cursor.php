@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Concerns;
+namespace QuantaForge\Prompts\Concerns;
 
 trait Cursor
 {

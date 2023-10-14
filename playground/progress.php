@@ -1,6 +1,6 @@
 <?php
 
-use function QuantaQuirk\Prompts\progress;
+use function QuantaForge\Prompts\progress;
 
 require __DIR__.'/../vendor/autoload.php';
 

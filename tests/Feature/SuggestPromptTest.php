@@ -1,11 +1,11 @@
 <?php
 
-use QuantaQuirk\Prompts\Exceptions\NonInteractiveValidationException;
-use QuantaQuirk\Prompts\Key;
-use QuantaQuirk\Prompts\Prompt;
-use QuantaQuirk\Prompts\SuggestPrompt;
+use QuantaForge\Prompts\Exceptions\NonInteractiveValidationException;
+use QuantaForge\Prompts\Key;
+use QuantaForge\Prompts\Prompt;
+use QuantaForge\Prompts\SuggestPrompt;
 
-use function QuantaQuirk\Prompts\suggest;
+use function QuantaForge\Prompts\suggest;
 
 it('accepts any input', function () {
     Prompt::fake(['B', 'l', 'a', 'c', 'k', Key::ENTER]);

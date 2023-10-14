@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\SuggestPrompt;
-use QuantaQuirk\Prompts\Themes\Contracts\Scrolling;
+use QuantaForge\Prompts\SuggestPrompt;
+use QuantaForge\Prompts\Themes\Contracts\Scrolling;
 
 class SuggestPromptRenderer extends Renderer implements Scrolling
 {

@@ -1,12 +1,12 @@
 <?php
 
-use function QuantaQuirk\Prompts\alert;
-use function QuantaQuirk\Prompts\error;
-use function QuantaQuirk\Prompts\info;
-use function QuantaQuirk\Prompts\intro;
-use function QuantaQuirk\Prompts\note;
-use function QuantaQuirk\Prompts\outro;
-use function QuantaQuirk\Prompts\warning;
+use function QuantaForge\Prompts\alert;
+use function QuantaForge\Prompts\error;
+use function QuantaForge\Prompts\info;
+use function QuantaForge\Prompts\intro;
+use function QuantaForge\Prompts\note;
+use function QuantaForge\Prompts\outro;
+use function QuantaForge\Prompts\warning;
 
 require __DIR__.'/../vendor/autoload.php';
 

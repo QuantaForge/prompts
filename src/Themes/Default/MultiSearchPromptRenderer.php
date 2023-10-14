@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\MultiSearchPrompt;
-use QuantaQuirk\Prompts\Themes\Contracts\Scrolling;
+use QuantaForge\Prompts\MultiSearchPrompt;
+use QuantaForge\Prompts\Themes\Contracts\Scrolling;
 
 class MultiSearchPromptRenderer extends Renderer implements Scrolling
 {

@@ -1,6 +1,6 @@
 <?php
 
-use function QuantaQuirk\Prompts\select;
+use function QuantaForge\Prompts\select;
 
 require __DIR__.'/../vendor/autoload.php';
 

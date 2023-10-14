@@ -1,8 +1,8 @@
 <?php
 
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\spin;
+use function QuantaForge\Prompts\spin;
 
 it('renders a spinner while executing a callback and then returns the value', function () {
     Prompt::fake();

@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\Output\BufferedConsoleOutput;
-use QuantaQuirk\Prompts\Table;
+use QuantaForge\Prompts\Output\BufferedConsoleOutput;
+use QuantaForge\Prompts\Table;
 use Symfony\Component\Console\Helper\Table as SymfonyTable;
 use Symfony\Component\Console\Helper\TableStyle;
 

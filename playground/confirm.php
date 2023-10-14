@@ -1,6 +1,6 @@
 <?php
 
-use function QuantaQuirk\Prompts\confirm;
+use function QuantaForge\Prompts\confirm;
 
 require __DIR__.'/../vendor/autoload.php';
 

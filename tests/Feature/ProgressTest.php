@@ -1,8 +1,8 @@
 <?php
 
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\progress;
+use function QuantaForge\Prompts\progress;
 
 it('renders a progress bar', function ($steps) {
     Prompt::fake();

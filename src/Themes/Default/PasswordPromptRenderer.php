@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Prompts\Themes\Default;
+namespace QuantaForge\Prompts\Themes\Default;
 
-use QuantaQuirk\Prompts\PasswordPrompt;
+use QuantaForge\Prompts\PasswordPrompt;
 
 class PasswordPromptRenderer extends Renderer
 {

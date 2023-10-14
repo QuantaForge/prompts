@@ -1,11 +1,11 @@
 <?php
 
-use QuantaQuirk\Prompts\Exceptions\NonInteractiveValidationException;
-use QuantaQuirk\Prompts\Key;
-use QuantaQuirk\Prompts\Prompt;
-use QuantaQuirk\Prompts\TextPrompt;
+use QuantaForge\Prompts\Exceptions\NonInteractiveValidationException;
+use QuantaForge\Prompts\Key;
+use QuantaForge\Prompts\Prompt;
+use QuantaForge\Prompts\TextPrompt;
 
-use function QuantaQuirk\Prompts\text;
+use function QuantaForge\Prompts\text;
 
 it('returns the input', function () {
     Prompt::fake(['J', 'e', 's', 's', Key::ENTER]);

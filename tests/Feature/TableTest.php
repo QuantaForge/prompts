@@ -1,8 +1,8 @@
 <?php
 
-use QuantaQuirk\Prompts\Prompt;
+use QuantaForge\Prompts\Prompt;
 
-use function QuantaQuirk\Prompts\table;
+use function QuantaForge\Prompts\table;
 
 it('renders a table with headers', function ($headers, $rows) {
     Prompt::fake();
